@@ -1,0 +1,36 @@
+
+---
+
+## **.gitignore**
+```gitignore
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
